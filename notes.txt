@@ -11,3 +11,17 @@ document.querySelectorAll('any tag or class or id')
 we can use for each loop here it returns a node list
         ex--> const temp = document.querySelectorAll('h2')
                 we can apply use each element like arrray temp[i]
+
+
+create element -->
+    const div = document.createElement('div')
+    console.log(div);
+    div.className = "main"
+    div.id = Math.floor(Math.random() * 10 + 1)
+
+    div.setAttribute("title" , "generatedtitle")
+    div.style.backgroundColor = "green"
+    div.style.padding = "12px"
+    div.innerText = "Rupam"
+
+    document.body.appendChild(div)
