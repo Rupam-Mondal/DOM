@@ -1,0 +1,13 @@
+const temp = document.getElementByClassName() --> return a html collection
+        to use this array we can covert to array by using
+        Array.from(temp)
+
+
+document.querySelector() --> this follows all type of css syntax
+    like -->document.querySelector("#id")
+            document.querySelector(".class")
+
+document.querySelectorAll('any tag or class or id')
+we can use for each loop here it returns a node list
+        ex--> const temp = document.querySelectorAll('h2')
+                we can apply use each element like arrray temp[i]
