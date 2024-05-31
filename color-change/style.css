@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button{
+    margin: 10px;
+    height: 100px;
+    width: 100px;
+    border: 2px solid #212121;
+    border-radius: 100%;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+}
+#black{
+    background-color: black;
+}
+#yellow{
+    background-color: Yellow;
+}
+#red{
+    background-color: Red;
+}
+#green{
+    background-color: green;
+}
+
+.button:hover{
+    transform: scale(1.2);
+}
