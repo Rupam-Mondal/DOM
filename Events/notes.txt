@@ -1,0 +1,2 @@
+//type , timestamp , defaultprevented , target , toElement , srcElement
+//clientX , clientY , screenX , screenY , keycode , altkey
